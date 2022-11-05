@@ -1,6 +1,6 @@
 package com.oan.leet;
 
-public class LastWordLength {
+public class LastWordLengthSolution {
     public static int lengthOfLastWord(String s) {
         char[] str = s.toCharArray();
         boolean metNonSpace = false;
