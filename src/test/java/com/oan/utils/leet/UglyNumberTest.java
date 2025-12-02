@@ -3,7 +3,7 @@ package com.oan.utils.leet;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import com.oan.leet.UglyNumberSolution;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class UglyNumberTest {
     UglyNumberSolution solution = new UglyNumberSolution();

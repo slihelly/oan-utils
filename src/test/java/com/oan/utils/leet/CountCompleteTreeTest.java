@@ -3,7 +3,7 @@ package com.oan.utils.leet;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import com.oan.leet.CountCompleteTreeSolution;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class CountCompleteTreeTest {
     CountCompleteTreeSolution solution = new CountCompleteTreeSolution();

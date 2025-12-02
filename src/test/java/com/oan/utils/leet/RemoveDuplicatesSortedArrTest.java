@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import com.oan.leet.RemoveDuplicatesSortedArrSolution;
 import org.assertj.core.api.SoftAssertions;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class RemoveDuplicatesSortedArrTest {
     RemoveDuplicatesSortedArrSolution solution = new RemoveDuplicatesSortedArrSolution();
