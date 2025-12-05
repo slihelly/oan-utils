@@ -13,7 +13,7 @@ public class Day3LobbyTest {
 
     @Test
     public void test1() {
-        String[] input = {"987654321111111", "811111111111119", "234234234234278", "818181911112111"};
+        String[] input = {"987654321111111", "811111111111119", "234234234234278", "818181911112111" };
         System.out.println(task.getTotalOutputJoltage(input));
     }
 
@@ -33,7 +33,7 @@ public class Day3LobbyTest {
 
     @Test
     public void test3() {
-        String[] input = {"234234234234278"};
+        String[] input = {"234234234234278" };
         System.out.println(task.getTotalOutputJoltage(input));
     }
 }

@@ -13,7 +13,7 @@ public class Day1SecretEntranceTest {
 
     @Test
     public void test1() {
-        String[] input = {"L68", "L30", "R48", "L5", "R60", "L55", "L1", "L99", "R14", "L82"};
+        String[] input = {"L68", "L30", "R48", "L5", "R60", "L55", "L1", "L99", "R14", "L82" };
         System.out.println(task.getPassword(input));
     }
 

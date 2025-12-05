@@ -8,7 +8,7 @@ public class Day2GiftShop {
     public String getInvalidInputsSum(String[] inputRanges) {
         BigInteger invalidInputsSum = new BigInteger("0");
         for (String range : inputRanges) {
-            for(BigInteger invalidInput : getInvalidInputs(range)) {
+            for (BigInteger invalidInput : getInvalidInputs(range)) {
                 invalidInputsSum = invalidInputsSum.add(invalidInput);
             }
         }
@@ -22,7 +22,7 @@ public class Day2GiftShop {
         System.out.printf("First: %s, Last: %s%n", firstInRange, lastInRange);
 
         for (BigInteger i = firstInRange; i.compareTo(lastInRange.add(BigInteger.ONE)) <= 0; i = i.add(BigInteger.ONE)) {
-            if(isInvalid(i)) {
+            if (isInvalid(i)) {
                 System.out.printf("Invalid input: %d%n", i);
                 invalidInputs.add(i);
             }
